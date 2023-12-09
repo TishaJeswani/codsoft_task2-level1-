@@ -1,0 +1,91 @@
+:root {
+    --main-color: #9F5C44;
+    --second-color: #64342C;
+    --third-color: #644C2C;
+    --fourth-color: #392414;
+    --fifth-color: #1F232C;
+    --sixth-color:white;
+    --black: #13131a;
+    --bg: #000000;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--sixth-color);
+    margin-left: 700px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--sixth-color);
+}
+
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 2rem; /* Adjust the padding to decrease the button size */
+    font-size: 1.4rem; 
+    color: #fff;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: .1rem;
+    background-color: var(--main-color);
+}
+h3{
+    align-items: center;
+    font-size: x-large;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+p{
+    font-size: x-large;
+}
+
+.about-us {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 800px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin-top: 520px;
+}
+.btn {
+   margin-left: 20px;
+}
+body{
+    background-image: url("https://miro.medium.com/v2/resize:fill:1200:1200/g:fp:0.82:0.47/1*njE2UVPnj-p4G-x6kYWIhw.jpeg");
+}
+
+.navbar {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height:100px;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color:white;
+        margin-left: 20px;
+    }
+    .navbar a:hover{
+        cursor: pointer;
+        font-weight: bolder;
+    }
